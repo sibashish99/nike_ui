@@ -28,6 +28,10 @@ ul{
     font-weight: 700;
     font-size:34px ;
 }
+.logo:hover{
+    color: blue;
+    font-weight: 900;
+}
 .cart img {
     height: 22px;
 }
@@ -37,12 +41,12 @@ ul{
 .menu ul li a{
     margin: 20px;
     font-weight: 900;
-    color: black;
+    color: rgb(57, 238, 118);
     font-size: 20px;
 }
 .cart a{
     font-weight: 600;
-    color: #262525;
+    color: black;
     font-size: 20px;
     margin: 10px;
 }
@@ -56,8 +60,54 @@ ul{
    transition: all ease 0.5s;
 }
 .menu a:hover{
-    color: lime;
+    color: black;
     font-weight: 900;
     transition: all ease 0.5s;
  }
-
+.color-container{
+    
+    overflow: hidden;
+    margin: 20px;
+    width: 14px;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.orange,.purple,.green{
+    height: 57px;
+}
+.orange{
+    background-color:  #fb7b33;
+}
+.purple{
+    background-color: #8b34ef;
+}
+.green{
+    background-color: #2fecbe;
+}
+.text-container{
+    display: flex;
+    align-items: center;
+    margin: 7% 0px 4% 12%;
+}
+.text{
+    margin: 10px;
+    width: 350px;
+}
+.text h1,.text h2{
+    line-height: 10px;
+    font-family: calibri;
+}
+.text h1{
+    font-size: 110px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #4d4b4b;
+}
+.text h2{
+    font-size: 55px;
+    font-weight: 200;
+    color: #4d4b4b;
+    display: flex;
+    justify-content: flex-end;
+}
